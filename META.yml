@@ -13,9 +13,9 @@ build_requires:
   base: 0
   lib: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.30
+  ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.016, CPAN::Meta::Converter version 2.140640'
+generated_by: 'Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,7 +25,7 @@ requires:
   Array::Diff: 0
   Data::Dumper::Concise: 0
   Hash::Layout: 0
-  JSON::DWIW: 0
+  JSON: 0
   List::MoreUtils: 0
   List::Util: 0
   Module::Runtime: 0
@@ -40,4 +40,7 @@ requires:
 resources:
   bugtracker: https://github.com/vanstyn/DBIx-Class-Schema-Diff/issues
   repository: https://github.com/vanstyn/DBIx-Class-Schema-Diff.git
-version: 1.02
+version: 1.03
+x_contributors:
+  - 'Peter Rabbitson <ribasushi@cpan.org>'
+  - 'Michael Lackhoff <michael@lackhoff.de>'
